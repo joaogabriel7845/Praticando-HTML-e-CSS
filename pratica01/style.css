@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #101218;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.89);
+    width: 500px;
+    height: 500px;
+    max-width: 90%;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 10px;
+    box-shadow: 0px 15px 40px 0px #ffffff52;
+}
+
+.card > h1 {
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+    text-shadow: 2px 2px 40px;
+}
+
+.card > p {
+    padding-top: 20px;
+    text-shadow: 2px 2px 40px;
+}
+
+.card > img {
+    display: block;
+    margin: auto;
+    box-shadow: 3px 3px 40px;
+    border-radius: 50%;
+}
+
+.botaowhatsapp {
+    margin: 25px;
+    padding: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.363); 
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.botaowhatsapp:hover {
+    background-color: #dbffdb6e;
+    box-shadow: 2px 0px 50px 4px #00ff1552;
+}
+
+.botaodiscord {
+    margin: 25px;
+    margin-left: 5px;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.363); 
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.botaodiscord:hover {
+    background-color: rgba(184, 184, 255, 0.349);
+    box-shadow: 2px 0px 50px 4px #0004ff52;
+}
+
+.botaogithub {
+    margin: 25px;
+    margin-left: 5px;
+    padding: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.363); 
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.botaogithub:hover {
+    background-color: #0d11171a;
+    box-shadow: 2px 0px 50px 4px #3875C2;
+}
