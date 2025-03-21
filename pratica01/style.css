@@ -54,11 +54,9 @@ body {
 }
 
 .botaodiscord {
+    width: 82px;
+    height: 83px;
     margin: 25px;
-    margin-left: 5px;
-    padding: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.363); 
@@ -72,7 +70,6 @@ body {
 
 .botaogithub {
     margin: 25px;
-    margin-left: 5px;
     padding: 15px;
     padding-left: 16px;
     padding-right: 16px;
@@ -85,4 +82,25 @@ body {
 .botaogithub:hover {
     background-color: #0d11171a;
     box-shadow: 2px 0px 50px 4px #3875C2;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 360px), (max-width: 430px) {
+    .card button {
+        margin: 10px;
+        margin-top: 30px;
+        max-width: 360px;
+        width: 60px;
+        height:60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+    }
 }
