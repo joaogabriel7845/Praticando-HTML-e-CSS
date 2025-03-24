@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Josefin Sans;
+}
+
+.mainpag {
+    display: flex;
+    height: 100vh;
+}
+
+.leftlogin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #5f5aa2;
+    width: 50vw;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+}
+
+.leftlogin > h1{
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.img-leftlogin {
+    width: 60%;
+}
+
+.rightlogin {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardlogin {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 5px 5px 40px 1px rgba(0, 0, 0, 0.315);
+    width: 30vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cardlogin > h1 {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: DM Sans;
+}
+
+.textfield label {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: DM Sans;
+    font-weight: bold;
+}
+
+.textfield input {
+    border: 1px solid #5F5AA2;
+    margin: auto;
+    width: 25vh;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
