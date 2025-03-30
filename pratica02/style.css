@@ -4,7 +4,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Josefin Sans;
 }
 
 .mainpag {
@@ -24,6 +23,7 @@
 
 .leftlogin > h1{
     font-size: 50px;
+    font-family: Josefin Sans;
     padding-top: 50px;
     text-align: center;
 }
@@ -35,6 +35,8 @@
 .rightlogin {
     width: 50vw;
     height: 100vh;
+    background-image: url('imagens/wallpaper004.jpg');
+    background-position: right;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,6 +54,7 @@
 }
 
 .cardlogin > h1 {
+    font-family: Josefin Sans;
     text-align: center;
     padding-top: 30px;
     margin-bottom: 40px;
