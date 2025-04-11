@@ -26,6 +26,7 @@
     font-family: Josefin Sans;
     padding-top: 50px;
     text-align: center;
+    text-shadow: 0.5px 0.5px 50px black
 }
 
 .img-leftlogin {
@@ -58,6 +59,7 @@
     text-align: center;
     padding-top: 30px;
     margin-bottom: 40px;
+    text-shadow: 0.5px 0.5px 50px
 }
 
 .textfield {
